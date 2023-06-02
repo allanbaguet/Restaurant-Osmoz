@@ -1,3 +1,122 @@
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+/* CONTACT */
+.contact{
+    background-color: #cad2c5 ;
+    padding-bottom: 20px;
+    }
+.footer{
+    background-color: #2F3E46;
+    display: flex;
+}
+#formulaire{
+    text-align: center;
+}
+.h2contact{
+    font-size: 50px;
+    text-align: center;
+    color: #2F3E46 ;
+}
+/* FOOTER */
+#logo{
+    display: flex;
+    justify-content: center;
+    background-color: #cad2c5;
+}
+#logo-osmoz{
+ width: 60%;
+}
+.footercenter{
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #cad2c5;
+    font-size: 12px;
+    width: 100%; 
+}
+.footercenter a{
+    text-decoration: none;
+    color: #cad2c5;
+    font-size: 28px;
+}
+.footercenterleft{
+    width: 40%;
+}
+.footercenterleft ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footercenterright{
+    width: 40%;
+    font-size: 12px;
+}
+.titre{
+    font-size: 28px;
+    margin: 0;
+}
+.copyright{
+    margin-top: 10px;
+}
+.logo-fb{
+    padding: 0 10px 0 10px ;
+    width: 20%;
+}
+.logo-fb img{
+    width: 120px;
+    margin-top: 25%;
+}
+
+
+.Presentation h1{
+    color:#cad2d5 ;
+    text-align: center;
+}
+.Presentation{
+    background-color:#354f52 ; color: #2F3E46  ;
+}
+.Presentation div{
+    color: #2F3E46;
+}
+.txt-presentation{
+    background-color: #CAD2C5;
+    border-radius: 20px;
+    margin-left: 5%;
+    font-size:x-large;
+}
+.intro{
+    margin: 5%;
+}
+.marg-text{
+    margin: 3%;
+}
+.flex-pres{
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:80vh;
+}
+.flex-pres img{
+    height:54%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid 1px #84a98c ;
+}
+.block-pres{
+    width:40%;
+    height: fit-content;
+    text-align: center;
+}
+.img-pres{
+    display: flex;
+    justify-content: center;  
+}
+
 .menu {
     display: flex;
     align-items: center;             
@@ -29,7 +148,7 @@ header img{
        font-size: 40px;             
 }
 .menu a:hover {
-    background-color: black;
+    background-color: #000000;
     color: #ffe843;
     border-color: #ffe843;
   }
@@ -47,6 +166,7 @@ header img{
 header span{
     font-size : 50px; 
 }
+
 
 .realisations{
   display: flex;
@@ -82,3 +202,6 @@ column-gap: 50px;
 .fintableau img{
 
 }
+
+
+
