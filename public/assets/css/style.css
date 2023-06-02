@@ -1,3 +1,4 @@
+
 .Presentation h1{
     color:#cad2d5 ;
     text-align: center;
@@ -42,3 +43,54 @@
     display: flex;
     justify-content: center;  
 }
+
+.menu {
+    display: flex;
+    align-items: center;             
+    padding:0;                 
+}
+.menu li {
+    list-style-type: none ;       
+}
+             
+header img{
+    max-width: 50%;
+    max-height: 50%;
+    background-color:#6F8D7A;
+    border-radius: 5%;
+}
+
+   ul{
+    background-color:#354F52 ;
+   }
+
+   .menu a {
+    display:block;             
+    min-width: 120px;                
+    margin: 0.5rem;               
+    padding: 0.4rem 0;            
+    text-align: center;          
+    color: #6F8D7A;                  
+    text-decoration: none;
+       font-size: 40px;             
+}
+.menu a:hover {
+    background-color: #000000;
+    color: #ffe843;
+    border-color: #ffe843;
+  }
+  .menu a {
+    display:block;               
+    min-width: 120px;             
+    border-radius: 15%;
+    margin: 0.5rem;              
+    padding: 0.4rem 0;            
+    text-align: center;           
+
+
+    transition: all 1s ;          
+}
+header span{
+    font-size : 50px; 
+}
+
