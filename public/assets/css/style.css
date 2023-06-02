@@ -1,0 +1,42 @@
+.Presentation h1{
+    color:#cad2d5 ;
+    text-align: center;
+}
+.Presentation{
+    background-color:#354f52 ;
+}
+.txt-presentation{
+    background-color: #CAD2C5; ;
+    border-radius: 20px;
+    margin-left: 5%;
+    font-size:x-large;
+}
+.intro{
+    margin: 5%;
+}
+.marg-text{
+    margin: 3%;
+}
+.flex-pres{
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:80vh;
+}
+.flex-pres img{
+    height:54%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid 1px #84a98c ;
+}
+.block-pres{
+    width:40%;
+    height: fit-content;
+    text-align: center;
+}
+.img-pres{
+    display: flex;
+    justify-content: center;
+    
+}
