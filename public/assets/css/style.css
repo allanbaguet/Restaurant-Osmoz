@@ -1,4 +1,77 @@
 
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+/* CONTACT */
+.contact{
+    background-color: #cad2c5 ;
+    padding-bottom: 20px;
+    }
+.footer{
+    background-color: #2F3E46;
+    display: flex;
+}
+#formulaire{
+    text-align: center;
+}
+.h2contact{
+    font-size: 50px;
+    text-align: center;
+    color: #2F3E46 ;
+}
+/* FOOTER */
+#logo{
+    display: flex;
+    justify-content: center;
+    background-color: #cad2c5;
+}
+#logo-osmoz{
+ width: 60%;
+}
+.footercenter{
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #cad2c5;
+    font-size: 12px;
+    width: 100%; 
+}
+.footercenter a{
+    text-decoration: none;
+    color: #cad2c5;
+    font-size: 28px;
+}
+.footercenterleft{
+    width: 40%;
+}
+.footercenterleft ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footercenterright{
+    width: 40%;
+    font-size: 12px;
+}
+.titre{
+    font-size: 28px;
+    margin: 0;
+}
+.copyright{
+    margin-top: 10px;
+}
+.logo-fb{
+    padding: 0 10px 0 10px ;
+    width: 20%;
+}
+.logo-fb img{
+    width: 120px;
+    margin-top: 25%;
+}
+=======
+
 .Presentation h1{
     color:#cad2d5 ;
     text-align: center;
@@ -93,4 +166,5 @@ header img{
 header span{
     font-size : 50px; 
 }
+
 
