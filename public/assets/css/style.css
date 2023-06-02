@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.containercolor {
+    background-color: #84A98C;
+    box-sizing: border-box;
+    width: auto;
+    height: 721px;
+}
+.containerinfo {
+    display: flex;
+    padding: 15px;
+}
+.containerinfo2 {
+    width: 50%;
+}
+.containerinfo3 {
+    width: 50%;
+}
+.titleinfo {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #2F3E46;
+}
+.day-hours {
+    display: flex;
+    justify-content: space-between;
+}
+.day-hours p {
+    text-align: right;
+}
+.day {
+    text-align: left;
+}
+.titreinfos {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: #2F3E46;
+}
+.rue {
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    color: #2F3E46;
+}
+.PMR {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    color: #2F3E46;
+}
