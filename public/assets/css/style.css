@@ -3,10 +3,13 @@
     text-align: center;
 }
 .Presentation{
-    background-color:#354f52 ;
+    background-color:#354f52 ; color: #2F3E46  ;
+}
+.Presentation div{
+    color: #2F3E46;
 }
 .txt-presentation{
-    background-color: #CAD2C5; ;
+    background-color: #CAD2C5;
     border-radius: 20px;
     margin-left: 5%;
     font-size:x-large;
@@ -37,6 +40,5 @@
 }
 .img-pres{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
