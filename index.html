@@ -6,12 +6,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Restaurant Osmoz</title>
 </head>
 
 <body>
 
-    <div></div>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <img src="public/assets/img/logo-osmoz.png" alt="logo">
+                </li>
+                <li> <a href="Présentation.html"> Présentation </a></li> <span>|</span>
+
+                <li><a href=" Réalisations.html">Réalisations </a></li><span>|</span>
+
+                <li><a href=" Infos Pratiques.html">Infos Pratiques </a></li><span>|</span>
+
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Presentation">
+        <h1>Présentation</h1>
+        <div class="txt-presentation intro">
+            <p class="marg-text"><br>Bienvenue dans notre restaurant , un véritable joyau culinaire situé au cœur de cette charmante ville historique. Nous sommes fiers de vous offrir une expérience gastronomique inoubliable, mêlant créativité, saveurs exquises et service impeccable.<br>
+            <br>
+            Notre équipe de chefs talentueux est passionnée par la cuisine et s'engage à créer des plats d'exception en utilisant des ingrédients frais et de saison. Chaque assiette est une œuvre d'art culinaire, soigneusement préparée pour éveiller vos sens et vous offrir une explosion de saveurs.<br>
+            <br>
+        </p>
+        </div>
+        <div class="flex-pres">
+            <div class="img-pres">
+            <img src="public\assets\img\intérieur.jpg" alt="intérieur">
+            </div>
+            <div class="txt-presentation block-pres">
+            <p class="marg-text">Nous accordons une grande importance à la qualité de nos produits et à la satisfaction de nos clients. C'est pourquoi nous travaillons en étroite collaboration avec des producteurs locaux et privilégions les ingrédients frais et de saison. Nous sommes également attentifs aux régimes alimentaires spécifiques et proposons des options végétariennes et sans gluten.<br>
+                <br>
+                Que vous soyez un fin gourmet à la recherche de nouvelles découvertes culinaires ou simplement à la recherche d'un moment de détente autour d'une bonne table, notre restaurant gastronomique d'Amiens est l'endroit idéal.<br>
+                <br>
+                Nous sommes impatients de vous accueillir et de vous offrir une expérience gastronomique mémorable. Réservez dès maintenant et laissez-nous vous emmener dans un voyage culinaire inoubliable.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="realisations">
+        <div class="premierecolonne">
+            <img src="public/assets/img/plat3.jpg" alt="photo1">
+            <img src="public/assets/img/plat2.jpg" alt="photo2">
+            <img src="public/assets/img/plat5.jpg" alt="photo3">
+        </div>
+
+        <div class="deuxiemecolonne">
+            <div>
+                <img src="public/assets/img/plat1.jpg" alt="photo4">
+            </div>
+            <div class="fintableau">
+                <img src="public/assets/img/plat6.jpg" alt="photo5">
+                <img src="public/assets/img/plat4.jpg" alt="photo6">
+            </div>
+
+        </div>
+    </div>
 
     <div></div>
 
@@ -70,6 +131,55 @@
     </div>
 
     <div></div>
+    <div class="end">
+        <!-- contact -->
+        <div class="contact" id="contact">
+            <h2 class="h2contact">Contact</h2>
+            <form action="get" id="formulaire">
+                <input type="text" name="prenom" id="prenom" placeholder="Votre Prénom">
+                <input type="text" name="nom" id="nom" placeholder="Votre Nom">
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="tel" name="telephone" id="telephone" placeholder="Téléphone">
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10">Votre Message</textarea>
+                <br>
+                <button type="submit">ENVOYER</button>
+            </form>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div id="logo">
+                <img src="public/assets/img/logo-osmoz.png" alt="logo-osmoz" id="logo-osmoz">
+            </div>
+            <div class="footercenter">
+                <div class="footercenterleft">
+                    <a href="https://www.legalplace.fr/guides/mentions-legales/" class="titre">Mention Légales</a>
+                    <br>
+                    <p>Site développé et géré par :</p>
+                    <ul>
+                        <li>Allan BAGUET</li>
+                        <li>Matthieu CICERON</li>
+                        <li>Sébastien LEROY</li>
+                        <li>Justin VERHAEGHE</li>
+                    </ul> 
+                    <p class="copyright">Copyright © 2023</p>       
+                </div>
+                <div class="footercenterright">
+                    <p class="titre">Restaurant Osmoz</p>
+                    <p>8 Rue Lamarck</p>
+                    <p>80000 Amiens</p>
+                    <p>Ouvert du lundi au samedi</p>
+                    <p>Fermé le dimanche et le lundi soir</p>
+                    <br>
+                </div>
+            </div>
+            <div class="logo-fb">  
+                <img src="public/assets/img/logo-fb.png" alt="facebook">           
+            </div>
+            
+        </div>
+    </div>
 
 </body>
 

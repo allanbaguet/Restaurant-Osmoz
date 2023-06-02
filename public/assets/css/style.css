@@ -1,55 +1,208 @@
-body {
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+}
+
+/* CONTACT */
+.contact{
+    background-color: #cad2c5 ;
+    padding-bottom: 20px;
+    }
+.footer{
+    background-color: #2F3E46;
+    display: flex;
+}
+#formulaire{
+    text-align: center;
+}
+.h2contact{
+    font-size: 50px;
+    text-align: center;
+    color: #2F3E46 ;
+}
+/* FOOTER */
+#logo{
+    display: flex;
+    justify-content: center;
+    background-color: #cad2c5;
+}
+#logo-osmoz{
+ width: 60%;
+}
+.footercenter{
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #cad2c5;
+    font-size: 12px;
+    width: 100%; 
+}
+.footercenter a{
+    text-decoration: none;
+    color: #cad2c5;
+    font-size: 28px;
+}
+.footercenterleft{
+    width: 40%;
+}
+.footercenterleft ul{
+    list-style-type: none;
     padding: 0;
 }
-.containercolor {
-    background-color: #84A98C;
-    box-sizing: border-box;
-    width: auto;
-    height: 721px;
+.footercenterright{
+    width: 40%;
+    font-size: 12px;
 }
-.containerinfo {
-    display: flex;
-    padding: 15px;
+.titre{
+    font-size: 28px;
+    margin: 0;
 }
-.containerinfo2 {
-    width: 50%;
+.copyright{
+    margin-top: 10px;
 }
-.containerinfo3 {
-    width: 50%;
+.logo-fb{
+    padding: 0 10px 0 10px ;
+    width: 20%;
 }
-.titleinfo {
+.logo-fb img{
+    width: 120px;
+    margin-top: 25%;
+}
+
+
+.Presentation h1{
+    color:#cad2d5 ;
     text-align: center;
-    padding-top: 20px;
-    font-size: 30px;
-    font-weight: normal;
+}
+.Presentation{
+    background-color:#354f52 ; color: #2F3E46  ;
+}
+.Presentation div{
     color: #2F3E46;
 }
-.day-hours {
+.txt-presentation{
+    background-color: #CAD2C5;
+    border-radius: 20px;
+    margin-left: 5%;
+    font-size:x-large;
+}
+.intro{
+    margin: 5%;
+}
+.marg-text{
+    margin: 3%;
+}
+.flex-pres{
+    margin: 5%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    height:80vh;
 }
-.day-hours p {
-    text-align: right;
+.flex-pres img{
+    height:54%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid 1px #84a98c ;
 }
-.day {
-    text-align: left;
-}
-.titreinfos {
+.block-pres{
+    width:40%;
+    height: fit-content;
     text-align: center;
-    font-size: 30px;
-    font-weight: normal;
-    color: #2F3E46;
 }
-.rue {
-    text-align: center;
-    font-size: 25px;
-    font-weight: normal;
-    color: #2F3E46;
+.img-pres{
+    display: flex;
+    justify-content: center;  
 }
-.PMR {
-    text-align: center;
-    font-size: 24px;
-    font-weight: normal;
-    color: #2F3E46;
+
+.menu {
+    display: flex;
+    align-items: center;             
+    padding:0;                 
 }
+.menu li {
+    list-style-type: none ;       
+}
+             
+header img{
+    max-width: 50%;
+    max-height: 50%;
+    background-color:#6F8D7A;
+    border-radius: 5%;
+}
+
+   ul{
+    background-color:#354F52 ;
+   }
+
+   .menu a {
+    display:block;             
+    min-width: 120px;                
+    margin: 0.5rem;               
+    padding: 0.4rem 0;            
+    text-align: center;          
+    color: #6F8D7A;                  
+    text-decoration: none;
+       font-size: 40px;             
+}
+.menu a:hover {
+    background-color: #000000;
+    color: #ffe843;
+    border-color: #ffe843;
+  }
+  .menu a {
+    display:block;               
+    min-width: 120px;             
+    border-radius: 15%;
+    margin: 0.5rem;              
+    padding: 0.4rem 0;            
+    text-align: center;           
+
+
+    transition: all 1s ;          
+}
+header span{
+    font-size : 50px; 
+}
+
+
+.realisations{
+  display: flex;
+  width: 100%;
+  background-color:#6F8D7A ;
+ column-gap: 50px;
+}
+.premierecolonne{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%; 
+
+  row-gap: 50px;
+}
+.deuxiemecolonne{
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  row-gap: 50px;
+}
+.fintableau{
+  display: flex;
+  width: 100%;
+  height: 50%;
+column-gap: 50px;
+}
+.realisations img{
+  object-fit: cover;
+}
+
+.fintableau img{
+    background-size: auto;
+
+}
+
+
+
