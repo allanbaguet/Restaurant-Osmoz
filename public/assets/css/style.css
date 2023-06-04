@@ -25,12 +25,59 @@ body{
     font-size: 50px;
     text-align: center;
     color: #2F3E46 ;
+    padding-top: 20px;
+}
+input {
+    background-color: #52796F;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 30%;
+    height: 60px;
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+}
+input:hover{
+    background-color: #2F3E46;
+}
+input::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+textarea::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+button{
+    background-color: #52796F;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 30%;
+    height: 60px;
+    margin: 15px;
+    color: white;   
+}
+button:hover{
+    background-color: #2F3E46;
+}
+textarea{
+    background-color: #52796F;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    text-align:center;
+    margin: 10px;
+    resize: none;
 }
 /* FOOTER */
 #logo{
     display: flex;
     justify-content: center;
     background-color: #cad2c5;
+    border-top: solid 1px #000000;
+    border-right: solid 1px #000000;
 }
 #logo-osmoz{
  width: 60%;
@@ -126,7 +173,8 @@ body{
 .menu {
     display: flex;
     align-items: center;             
-    padding:0;                 
+    padding:0;
+    background-color:#354F52 ;                 
 }
 .menu li {
     list-style-type: none ;       
@@ -138,9 +186,22 @@ header img{
     border-radius: 5%;
 }
 
+<<<<<<< HEAD
    ul{
     background-color:#2F3E46;
    }              
+=======
+.menu a {
+display:block;             
+min-width: 120px;                
+margin: 0.5rem;               
+padding: 0.4rem 0;            
+text-align: center;          
+color: #6F8D7A;                  
+text-decoration: none;
+font-size: 40px;             
+}
+>>>>>>> contact
 .menu a:hover {
     background-color: #000000;
     color: #ffe843;
