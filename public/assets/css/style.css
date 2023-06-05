@@ -19,8 +19,10 @@ html{
     list-style-type: none ;       
 }
 nav {
-    margin: -16px;
-}        
+    width: 100%;
+    margin-top: -16px;
+    margin-bottom: -16px;
+    }        
  /* ajout d'une margin négative pour que la navbar touche le haut de l'écran  */
 header img{
     width: 250px;
@@ -66,8 +68,11 @@ header span{
 /* ------------------------------------------FIN NAVBAR */
 
 /* ------------------------------------------DEBUT SECTION PRESENTATION */
+
+
 .Presentation h1{
     color:#cad2d5 ;
+    font-size: 50px;
     text-align: center;
     margin: 0;
     padding-top: 50px;
@@ -117,41 +122,43 @@ header span{
 /* ------------------------------------------FIN SECTION PRESENTATION */
 
 /* ------------------------------------------DEBUT SECTION REALISATION */
-.realisations{
-  display: flex;
-  width: 100%;
-  background-color:#6F8D7A ;
- column-gap: 50px;
-}
-.premierecolonne{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 50%; 
 
-  row-gap: 50px;
+.real{
+    background-color: #52796F;
+    margin-top: -80px;
 }
-.deuxiemecolonne{
+.h2real{
+    font-size: 50px;
+    text-align: center;
+    color: #2F3E46 ;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.pics {
+    display: grid;
+    width:80%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 20px 20px;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 7 / 5; }
+    .div2 { grid-area: 7 / 1 / 13 / 5; }
+    .div3 { grid-area: 1 / 5 / 9 / 9; }
+    .div4 { grid-area: 9 / 5 / 13 / 9; }
+    .div5 { grid-area: 1 / 9 / 7 / 13; }
+    .div6 { grid-area: 7 / 9 / 13 / 13; }
 
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  row-gap: 50px;
-}
-.fintableau{
-  display: flex;
-  width: 100%;
-  height: 50%;
-column-gap: 50px;
-}
-.realisations img{
-  object-fit: cover;
+.pics img{
+    border-radius: 10px;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
-.fintableau img{
-    background-size: auto;
 
-}
 /* ------------------------------------------FIN SECTION REALISATION */
 
 /* ------------------------------------------DEBUT SECTION INFO */
@@ -165,6 +172,8 @@ column-gap: 50px;
     text-align: center;
     color: #2F3E46;
     padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
 }
 .titreinfos {
     text-align: center;
@@ -222,7 +231,7 @@ column-gap: 50px;
 /* CONTACT */
 .contact{
     background-color: #cad2c5 ;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     }
 .footer{
     background-color: #2F3E46;
