@@ -52,6 +52,8 @@ header span{
 /* ------------------------------------------FIN NAVBAR */
 
 /* ------------------------------------------DEBUT SECTION PRESENTATION */
+
+
 .Presentation h1{
     color:#cad2d5 ;
     text-align: center;
@@ -100,41 +102,70 @@ header span{
 /* ------------------------------------------FIN SECTION PRESENTATION */
 
 /* ------------------------------------------DEBUT SECTION REALISATION */
-.realisations{
-  display: flex;
-  width: 100%;
-  background-color:#6F8D7A ;
- column-gap: 50px;
-}
-.premierecolonne{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 50%; 
-
-  row-gap: 50px;
-}
-.deuxiemecolonne{
-
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  row-gap: 50px;
-}
-.fintableau{
-  display: flex;
-  width: 100%;
-  height: 50%;
-column-gap: 50px;
+.titrerealisation{
+    background-color: #52796F;
 }
 .realisations img{
-  object-fit: cover;
+    width: 100vh;
+    border: solid 1px #84A98C;
+    margin: 50px;
 }
+.premierecolonne{
+    width: fit-content;
+    height: fit-content;
+}
+.titrerealisation h2{
+    text-align: center;
+    font-size: 100px;
+    color: #2F3E46;
+}
+.deuxiemecolonne{
+    width: fit-content;
+    height: fit-content;
+}
+.premierecolonne img{
+    
+    display: flex;
+    flex-direction: column;
+} 
+.deuxiemecolonne img{
 
+}
 .fintableau img{
-    background-size: auto;
-
+    width: 40%;
+    height: 40vh;
+    justify-content: space-between;
 }
+.realisations{
+    display: flex;
+ flex-direction:flex ;
+ 
+}
+.imgun{
+    height: 40vh;
+    width: 40vh;
+}
+
+.imgdeux{
+    height: 40vh;
+    width: 40px; ;
+    
+}
+.imgtrois{
+    height: 40vh;
+    width: 40vh;
+}
+.imgquatre{
+    height: 85vh;
+    width:10vh ;
+}
+
+.imgcinq{
+    height: fit-content;
+    margin-top: 50px;
+}
+
+
 /* ------------------------------------------FIN SECTION REALISATION */
 
 /* ------------------------------------------DEBUT SECTION INFO */
