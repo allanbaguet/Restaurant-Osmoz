@@ -19,8 +19,10 @@ html{
     list-style-type: none ;       
 }
 nav {
-    margin: -16px;
-}        
+    width: 100%;
+    margin-top: -16px;
+    margin-bottom: -16px;
+    }        
  /* ajout d'une margin négative pour que la navbar touche le haut de l'écran  */
 header img{
     width: 250px;
@@ -70,6 +72,7 @@ header span{
 
 .Presentation h1{
     color:#cad2d5 ;
+    font-size: 50px;
     text-align: center;
     margin: 0;
     padding-top: 50px;
@@ -119,67 +122,40 @@ header span{
 /* ------------------------------------------FIN SECTION PRESENTATION */
 
 /* ------------------------------------------DEBUT SECTION REALISATION */
-.titrerealisation{
+
+.real{
     background-color: #52796F;
+    margin-top: -80px;
 }
-.realisations img{
-    width: 100vh;
-    border: solid 1px #84A98C;
-    margin: 50px;
-}
-.premierecolonne{
-    width: fit-content;
-    height: fit-content;
-}
-.titrerealisation h2{
+.h2real{
+    font-size: 50px;
     text-align: center;
-    font-size: 100px;
-    color: #2F3E46;
+    color: #2F3E46 ;
+    padding-top: 30px;
+    margin-top: 30px;
 }
-.deuxiemecolonne{
-    width: fit-content;
-    height: fit-content;
-}
-.premierecolonne img{
+.pics {
+    display: grid;
+    width:80%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 20px 20px;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    }
     
-    display: flex;
-    flex-direction: column;
-} 
-.deuxiemecolonne img{
+    .div1 { grid-area: 1 / 1 / 7 / 5; }
+    .div2 { grid-area: 7 / 1 / 13 / 5; }
+    .div3 { grid-area: 1 / 5 / 9 / 9; }
+    .div4 { grid-area: 9 / 5 / 13 / 9; }
+    .div5 { grid-area: 1 / 9 / 7 / 13; }
+    .div6 { grid-area: 7 / 9 / 13 / 13; }
 
-}
-.fintableau img{
-    width: 40%;
-    height: 40vh;
-    justify-content: space-between;
-}
-.realisations{
-    display: flex;
- flex-direction:flex ;
- 
-}
-.imgun{
-    height: 40vh;
-    width: 40vh;
-}
-
-.imgdeux{
-    height: 40vh;
-    width: 40px; ;
-    
-}
-.imgtrois{
-    height: 40vh;
-    width: 40vh;
-}
-.imgquatre{
-    height: 85vh;
-    width:10vh ;
-}
-
-.imgcinq{
-    height: fit-content;
-    margin-top: 50px;
+.pics img{
+    border-radius: 10px;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
 
@@ -196,6 +172,8 @@ header span{
     text-align: center;
     color: #2F3E46;
     padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
 }
 .titreinfos {
     text-align: center;
@@ -253,7 +231,7 @@ header span{
 /* CONTACT */
 .contact{
     background-color: #cad2c5 ;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     }
 .footer{
     background-color: #2F3E46;
