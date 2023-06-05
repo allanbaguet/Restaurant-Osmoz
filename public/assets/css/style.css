@@ -66,7 +66,7 @@ header span{
     background-color: #CAD2C5;
     border-radius: 20px;
     margin-left: 5%;
-    font-size:x-large;
+    font-size:22px;
 }
 .intro{
     margin: 5%;
@@ -89,6 +89,7 @@ header span{
 }
 .block-pres{
     width:40%;
+    padding-bottom: 1%;
     height: fit-content;
     text-align: center;
 }
