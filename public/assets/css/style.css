@@ -23,7 +23,8 @@ nav {
 }        
  /* ajout d'une margin négative pour que la navbar touche le haut de l'écran  */
 header img{
-    width: 170px;
+    width: 250px;
+    height: 170px;
     background-color:#CAD2C5;
 }
 /* retirer le border radius et redimensionner le logo pour que le space evenly et les bouton soit bien placer */
